@@ -1,4 +1,4 @@
-class Pirate
+
   class Ship
   attr_reader :name, :type, :booty
 
@@ -18,5 +18,5 @@ class Pirate
   def self.clear
     @@ships = []
   end
-end
+
 end

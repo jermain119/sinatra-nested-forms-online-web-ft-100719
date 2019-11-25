@@ -1,6 +1,4 @@
-class Ship
-  
-  class Pirate
+class Pirate
     
   attr_reader :name, :weight, :height
 
@@ -16,5 +14,9 @@ class Ship
   def self.all
     PIRATES
   end
-end
+  
+  def self.clear
+    PIRATES
+  end
+  
 end
